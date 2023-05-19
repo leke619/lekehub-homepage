@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: white;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* style the header */
+.header{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-image: url(Instagram.png);
+    background-size: cover;
+    border-left: 20px;
+    border-right: 20px;
+    border: 20px;
+    padding-left: 12px 20px;
+    margin-top: 25px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    border-radius: 150px;
+}
+
+
+/* Style the top nav bar */
+.topnav{
+    overflow: hidden;
+    background-color: blue;   
+}
+
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 140px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.active{
+    background-color: rgb(196, 29, 37);
+}
+
+/* Change color on hover */
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+}
+
+/* Create three equal columns that float next to each other */
+.column{
+    float: left;
+    width: 33.099999%;
+    padding: 10px;
+    margin-left: auto;
+}
+
+/* Clears float after the colunms */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+
+button{
+    text-align: center;
+    font-size: 0.875rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-color: rgb(0, 102, 255);
+    background-color: rgb(0, 102, 255);
+    border-style: solid;
+    display: inline-block;
+    color: white;
+    margin-left: 150px;
+}
+
+.train{
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 50px;
+    
+}
+
+.container{
+    background-color: whitesmoke;
+}
+
+
+@media screen and (max-width) {
+    .column{
+        width: 100%;
+    }
+    
+}
+
+  .responsive {
+    padding: 0 10px;
+    float: left;
+    width: 28.35%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 70.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+
+  
